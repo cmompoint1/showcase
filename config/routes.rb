@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'welcome/blog'
+
   root 'welcome#index'
   get 'welcome/index'
 
