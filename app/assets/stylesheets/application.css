@@ -43,10 +43,10 @@
 	}
 	#menu a{
 		text-decoration: none;
-    	color: #00F;
+    	color: yellow;
     	padding: 8px 8px 8px 8px;
 	}
 	#menu a:hover{
-		color: #F90;
+		color: black
     	background-color: #FFF;
 	}
