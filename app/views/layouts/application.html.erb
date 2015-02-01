@@ -2,10 +2,11 @@
 <html>
 <head>
   <title>Showcase</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -19,7 +20,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Claude</a>
+      <a class="navbar-brand" href="/">
+      	Claude
+      </a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -27,6 +30,8 @@
         <li class="active"><a href="/welcome/index">Home<span class="sr-only">(current)</span></a></li>
         <li><a href="/welcome/blog">Blog</a></li>
         <li><a href="/welcome/about">About</a></li>
+        <li><a href="/welcome/contact">Contact</a></li>
+        <p class="navbar-text">Hello Claude</p>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
