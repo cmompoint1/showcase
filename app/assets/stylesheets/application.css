@@ -14,7 +14,7 @@
  *= require_self
  */
 	body{
-		background: url("background.jpg");
+		background: url(<%= image_tag "blog.jpg" %>);
 		background-size: cover; 
 		border: 10px solid gray;
 		padding: 20px;
