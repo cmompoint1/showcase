@@ -28,10 +28,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/welcome/index">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="/welcome/blog">Blog</a></li>
-        <li><a href="/works">Work</a></li>
-        <li><a href="/welcome/about">About</a></li>
-        <li><a href="/welcome/contact">Contact</a></li>
+        <li><%= link_to 'Blog', welcome_blog_path %></li>
+        <li><%= link_to 'Work', works_path %> </li>
+        <li><%= link_to 'About', welcome_about_path %> </li>
+        <li><%= link_to 'Contact', welcome_contact_path %></li>
       </ul>
       <p class="navbar-text navbar-right">Hello <%= @name%></p>
       <form class="navbar-form navbar-right" role="search">
